@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Twitter-like UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Twitter-like UI</h1>
+        </header>
+        <section class="tweet-input">
+            <textarea placeholder="What's happening?"></textarea>
+            <input type="file" id="image-input" multiple accept="image/*">
+            <button onclick="postTweet()">Tweet</button>
+        </section>
+        <section class="tweets">
+            <!-- Tweets will be displayed here -->
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
